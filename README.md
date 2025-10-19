@@ -103,6 +103,13 @@ QR code receipts for contactless guest entry
 
 These improvements will make the project suitable for real hostel environments and digital campus initiatives.
 
+Project Structure
+Hostel-Guest-Room-Reservation-System/
+│
+├── test.py # Main program file
+├── bookings.txt # Text database
+├── README.md # Project description 
+
 Output Sample
 ===== HOSTEL GUEST ROOM RESERVATION SYSTEM =====
 1. Add Reservation
