@@ -27,8 +27,8 @@ All records are stored in a lightweight **text file (`bookings.txt`)** that func
 | **1** | File Handling & Database | Stores and retrieves booking records from a text file |
 | **2** | Reservation Management | Add, update, cancel, and search guest bookings |
 | **3** | Room Allocation | Automatically assigns available rooms (101–120) |
-| **5** | Check-In / Check-Out System | Marks guests as arrived or departed |
-| **8** | User Interface & Integration | Simple menu-based console interface connecting all modules |
+| **4** | Check-In / Check-Out System | Marks guests as arrived or departed |
+| **5** | User Interface & Integration | Simple menu-based console interface connecting all modules |
 
 ---
 
@@ -36,9 +36,9 @@ All records are stored in a lightweight **text file (`bookings.txt`)** that func
 
 | Module No. | Module Name | Description |
 |-------------|--------------|--------------|
-| **4** | Policy Enforcement | Apply hostel rules like stay limits and relation checks |
-| **6** | Sorting & Reporting | Generate daily/monthly visitor and room usage reports |
-| **7** | Notifications & Receipts | Add digital receipts or QR confirmations |
+| **6** | Policy Enforcement | Apply hostel rules like stay limits and relation checks |
+| **7** | Sorting & Reporting | Generate daily/monthly visitor and room usage reports |
+| **8** | Notifications & Receipts | Add digital receipts or QR confirmations |
 | **9** | Testing & Documentation | Detailed testing scripts and user documentation |
 | **GUI (Tkinter)** | User Interface Upgrade | Replace console with GUI for real-world usability |
 
@@ -59,11 +59,11 @@ All records are stored in a lightweight **text file (`bookings.txt`)** that func
    ```bash
    git clone https://github.com/<your-username>/Hostel-Guest-Room-Reservation-System.git
 
- Move into the project folder:
+2. Move into the project folder:
 cd Hostel-Guest-Room-Reservation-System
 
 
-Run the program:
+3. Run the program:
 python system.py
 
 
@@ -103,13 +103,34 @@ QR code receipts for contactless guest entry
 
 These improvements will make the project suitable for real hostel environments and digital campus initiatives.
 
+Output Sample
+===== HOSTEL GUEST ROOM RESERVATION SYSTEM =====
+1. Add Reservation
+2. Update Reservation
+3. Cancel Reservation
+4. Search Reservation
+5. Check-In Guest
+6. Check-Out Guest
+7. View All Bookings
+8. Exit
+Enter your choice: 1
+
+--- Add New Reservation ---
+Enter Student ID: 220022
+Enter Guest Name: Piyush
+Enter Relation (Father/Mother/Guardian): Father
+Enter number of stay days: 4
+
+ Booking Successful!
+Booking ID (Student ID): 220022
+Guest: Piyush
+Room Assigned: 101
+----------------------------
+
 👨‍💻 Author
 
-Name: Ajeet Singh Panwar
-Roll Number: 2418193
-Project Title: Hostel Guest Room Reservation System
-Language: Python
-Status: In Progress (Phase 1&2  Completed)
+Name: Ajeet Singh Panwar 
+Email: ajeetspanwar985@gmail.com
 
 🪪 License
 
