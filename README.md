@@ -59,3 +59,60 @@ All records are stored in a lightweight **text file (`bookings.txt`)** that func
    ```bash
    git clone https://github.com/<your-username>/Hostel-Guest-Room-Reservation-System.git
 
+ Move into the project folder:
+cd Hostel-Guest-Room-Reservation-System
+
+
+Run the program:
+python system.py
+
+
+Follow the menu options to:
+
+Add / Update / Cancel Reservations
+
+Check-In or Check-Out Guests
+
+Search Records or View All Bookings
+
+🧠 Learning Outcomes
+
+Understanding Python file handling and data management
+
+Building modular programs for scalability
+
+Learning how to simulate a database using text files
+
+Foundation for integrating GUI and DBMS
+
+Problem-solving and logical structuring for real-world use cases
+
+🌱 Future Scope
+
+This system will later be upgraded with:
+
+A Tkinter GUI interface for user-friendly booking management
+
+Database connectivity using SQLite or MySQL
+
+Automated reports for visitor tracking and analytics
+
+Email/SMS notifications for booking confirmations
+
+QR code receipts for contactless guest entry
+
+These improvements will make the project suitable for real hostel environments and digital campus initiatives.
+
+👨‍💻 Author
+
+Name: Ajeet Singh Panwar
+Roll Number: 2418193
+Project Title: Hostel Guest Room Reservation System
+Language: Python
+Status: In Progress (Phase 1&2  Completed)
+
+🪪 License
+
+This project is open-source under the MIT License
+.
+
