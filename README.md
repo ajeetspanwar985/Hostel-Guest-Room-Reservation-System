@@ -55,6 +55,7 @@ Password: 1234
 📁 Project Structure
 
 Hostel-Guest-Room-System/
+
 │── test2.py
 │── bookings.txt   (auto-generated)
 │── report.csv     (exported)
