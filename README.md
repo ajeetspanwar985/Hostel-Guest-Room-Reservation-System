@@ -8,48 +8,63 @@ The system supports booking, updating, cancelling, room allocation, check-in/out
 ✔ 1. File Handling & Database
 
 Uses a text file (bookings.txt) as the database
+
 Loads/saves all booking details
+
 Ensures data persistence
 
 ✔ 2. Reservation Management
 
 Add new reservations
+
 Update and cancel bookings
+
 Search using Student ID or Guest Name
+
 Student ID acts as Booking ID
 
 ✔ 3. Room Allocation
 
 Automatically assigns rooms from 101–120
+
 Prevents duplicate room assignments
 
 ✔ 4. Policy Enforcement
 
 Only Father/Mother/Guardian allowed
+
 Maximum stay: 3 days
+
 Validates input to maintain hostel rules
 
 ✔ 5. Check-In / Check-Out Module
 
 Updates status: Booked → Checked In → Checked Out
+
 Real-time updates in GUI table
 
 ✔ 6. Reporting & CSV Export
 
 Displays total booked, checked-in, checked-out
+
 Exports complete records to report.csv
 
 ✔ 7. Tkinter-Based GUI
 
 Header, footer, menu bar
+
 Buttons for all operations
+
 Treeview table for data display
+
 User-friendly and easy to navigate
 
 ✔ 8. Login Authentication
 
 Simple login screen for security
+
 Username: admin
+
 Password: 1234
 
 📁 Project Structure
@@ -65,9 +80,13 @@ Hostel-Guest-Room-System/
 This project uses only Python standard libraries, no installation required:
 
 tkinter – GUI development
+
 os – file path and existence checks
+
 csv – exporting reports
+
 ttk – Treeview data table
+
 messagebox – user notifications
 
 📸 Screenshots (Optional)
