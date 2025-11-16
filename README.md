@@ -92,7 +92,9 @@ Report
 
 
 🔧 How to Run
+
 Install Python 3.x
+
 Download or clone the repository
 
 Run:
@@ -102,6 +104,7 @@ python test2.py
 Login using:
 
 Username: admin
+
 Password: 1234
 
 🧪 Testing & Validation
@@ -121,28 +124,43 @@ Login authentication	✔ Pass
 📦 Project Deliverables
 
 Fully working GUI-based reservation system
+
 File-handling backend
+
 Room allocation logic
+
 Visitor policy enforcement
+
 Check-in/check-out workflow
+
 Exportable reports
+
 Complete documentation
 
 📄 Key Outcomes
 
 Fully functional hostel guest management system
+
 Real-time status updates
+
 Clean and accessible user interface
+
 Secure login-based access
+
 Complete module integration
 
 🔮 Future Scope
 
 Add SQL or SQLite database
+
 Multi-user roles (warden/admin/security)
+
 SMS or email notifications
+
 Detailed analytics dashboard
+
 Multi-day booking history
+
 Cloud-based deployment
 
 👨‍💻 Developer
