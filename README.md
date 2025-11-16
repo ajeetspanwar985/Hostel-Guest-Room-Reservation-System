@@ -3,6 +3,7 @@
 A complete Python-based project designed to manage guest room reservations in a hostel using a clean Tkinter GUI and simple file-storage system.
 The system supports booking, updating, cancelling, room allocation, check-in/out, reporting, CSV export, and login authentication.
 
+
 🚀 Project Features
 
 ✔ 1. File Handling & Database
@@ -67,6 +68,7 @@ Username: admin
 
 Password: 1234
 
+
 📁 Project Structure
 
 Hostel-Guest-Room-System/
@@ -74,6 +76,7 @@ Hostel-Guest-Room-System/
 │── bookings.txt   (auto-generated)
 │── report.csv     (exported)
 │── README.md
+
 
 🛠️ Technologies & Libraries
 
@@ -88,6 +91,7 @@ csv – exporting reports
 ttk – Treeview data table
 
 messagebox – user notifications
+
 
 📸 Screenshots (Optional)
 
@@ -110,15 +114,18 @@ Report
 <img width="341" height="333" alt="image" src="https://github.com/user-attachments/assets/772cd5c1-8484-4185-979b-a62f2eea3d32" />
 
 
+
 🔧 How to Run
 
 Install Python 3.x
 
 Download or clone the repository
 
+
 Run:
 
 python test2.py
+
 
 Login using:
 
@@ -126,7 +133,9 @@ Username: admin
 
 Password: 1234
 
+
 🧪 Testing & Validation
+
 All modules have been tested:
 
 Test	Status
@@ -139,6 +148,7 @@ Validation	✔ Pass
 CSV export	✔ Pass
 GUI operations	✔ Pass
 Login authentication	✔ Pass
+
 
 📦 Project Deliverables
 
@@ -156,6 +166,7 @@ Exportable reports
 
 Complete documentation
 
+
 📄 Key Outcomes
 
 Fully functional hostel guest management system
@@ -167,6 +178,7 @@ Clean and accessible user interface
 Secure login-based access
 
 Complete module integration
+
 
 🔮 Future Scope
 
@@ -181,6 +193,7 @@ Detailed analytics dashboard
 Multi-day booking history
 
 Cloud-based deployment
+
 
 👨‍💻 Developer
 
