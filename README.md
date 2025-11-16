@@ -1,146 +1,127 @@
-# 🏠 Hostel Guest Room Reservation System (Python Project)
+🏠 Hostel Guest Room Reservation System (Python | Tkinter | File Handling)
 
-A modular Python-based project that automates hostel guest room bookings for parents and guardians visiting students.  
-Currently implemented as a **console-based system**, this project will later include a **GUI interface** and additional advanced modules.
+A complete Python-based project designed to manage guest room reservations in a hostel using a clean Tkinter GUI and simple file-storage system.
+The system supports booking, updating, cancelling, room allocation, check-in/out, reporting, CSV export, and login authentication.
 
----
+🚀 Project Features
+✔ 1. File Handling & Database
+Uses a text file (bookings.txt) as the database
+Loads/saves all booking details
+Ensures data persistence
 
-## 📌 Project Overview
+✔ 2. Reservation Management
+Add new reservations
+Update and cancel bookings
+Search using Student ID or Guest Name
+Student ID acts as Booking ID
 
-Many hostels still maintain guest room records manually using paper registers, leading to confusion, double bookings, and time delays.  
-This project aims to digitalize the entire process using **Python** and **file handling**, creating a simple yet efficient system to manage room reservations.
+✔ 3. Room Allocation
+Automatically assigns rooms from 101–120
+Prevents duplicate room assignments
 
-It allows hostel staff to:
-- Add, update, or cancel guest bookings  
-- Allocate available rooms automatically  
-- Track check-ins and check-outs  
-- Maintain a digital record of all visitors  
+✔ 4. Policy Enforcement
+Only Father/Mother/Guardian allowed
+Maximum stay: 3 days
+Validates input to maintain hostel rules
 
-All records are stored in a lightweight **text file (`bookings.txt`)** that functions as the system’s database.
+✔ 5. Check-In / Check-Out Module
+Updates status: Booked → Checked In → Checked Out
+Real-time updates in GUI table
 
----
+✔ 6. Reporting & CSV Export
+Displays total booked, checked-in, checked-out
+Exports complete records to report.csv
 
-## 🧩 Modules Implemented (Current Phase)
+✔ 7. Tkinter-Based GUI
+Header, footer, menu bar
+Buttons for all operations
+Treeview table for data display
+User-friendly and easy to navigate
 
-| Module No. | Module Name | Description |
-|-------------|--------------|--------------|
-| **1** | File Handling & Database | Stores and retrieves booking records from a text file |
-| **2** | Reservation Management | Add, update, cancel, and search guest bookings |
-| **3** | Room Allocation | Automatically assigns available rooms (101–120) |
-| **4** | Check-In / Check-Out System | Marks guests as arrived or departed |
-| **5** | User Interface & Integration | Simple menu-based console interface connecting all modules |
+✔ 8. Login Authentication
+Simple login screen for security
+Username: admin
+Password: 1234
 
----
+📁 Project Structure
+Hostel-Guest-Room-System/
+│── test2.py
+│── bookings.txt   (auto-generated)
+│── report.csv     (exported)
+│── README.md
 
-## 🧩 Modules Planned (Next Phase)
+🛠️ Technologies & Libraries
+This project uses only Python standard libraries, no installation required:
+tkinter – GUI development
+os – file path and existence checks
+csv – exporting reports
+ttk – Treeview data table
+messagebox – user notifications
 
-| Module No. | Module Name | Description |
-|-------------|--------------|--------------|
-| **6** | Policy Enforcement | Apply hostel rules like stay limits and relation checks |
-| **7** | Sorting & Reporting | Generate daily/monthly visitor and room usage reports |
-| **8** | Notifications & Receipts | Add digital receipts or QR confirmations |
-| **9** | Testing & Documentation | Detailed testing scripts and user documentation |
-| **GUI (Tkinter)** | User Interface Upgrade | Replace console with GUI for real-world usability |
+📸 Screenshots (Optional)
 
----
+You can add screenshots here:
+Login Screen
+<img width="583" height="441" alt="image" src="https://github.com/user-attachments/assets/aa716165-3a50-4a01-8476-42ae6d1d4dec" />
 
-## ⚙️ Technologies Used
+Main Interface
+<img width="940" height="641" alt="image" src="https://github.com/user-attachments/assets/8ab7795e-017d-4ae7-9ffb-2a63193e0c05" />
 
-- **Language:** Python  
-- **Concepts:** File Handling, Conditional Statements, Loops, Functions  
-- **Data Storage:** Text file (`bookings.txt`)  
-- **Planned Extensions:** GUI (Tkinter), Database (MySQL or SQLite)
+Data Table
+<img width="940" height="643" alt="image" src="https://github.com/user-attachments/assets/59cd61f4-96bd-4dc3-b69f-5e18ca0d7442" />
 
----
+Report
+<img width="341" height="333" alt="image" src="https://github.com/user-attachments/assets/772cd5c1-8484-4185-979b-a62f2eea3d32" />
 
-## 🚀 How to Run the Project
+🔧 How to Run
+Install Python 3.x
+Download or clone the repository
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/<your-username>/Hostel-Guest-Room-Reservation-System.git
+Run:
+python test2.py
 
-2. Move into the project folder:
-cd Hostel-Guest-Room-Reservation-System
+Login using:
+Username: admin
+Password: 1234
 
+🧪 Testing & Validation
+All modules have been tested:
+Test	Status
+File handling	✔ Pass
+Reservation add/update/cancel	✔ Pass
+Room allocation	✔ Pass
+Check-in/check-out	✔ Pass
+Validation	✔ Pass
+CSV export	✔ Pass
+GUI operations	✔ Pass
+Login authentication	✔ Pass
+📦 Project Deliverables
+Fully working GUI-based reservation system
+File-handling backend
+Room allocation logic
+Visitor policy enforcement
+Check-in/check-out workflow
+Exportable reports
+Complete documentation
 
-3. Run the program:
-python system.py
+📄 Key Outcomes
+Fully functional hostel guest management system
+Real-time status updates
+Clean and accessible user interface
+Secure login-based access
+Complete module integration
 
+🔮 Future Scope
+Add SQL or SQLite database
+Multi-user roles (warden/admin/security)
+SMS or email notifications
+Detailed analytics dashboard
+Multi-day booking history
+Cloud-based deployment
 
-Follow the menu options to:
+👨‍💻 Developer
 
-Add / Update / Cancel Reservations
+Ajeet Singh Panwar
+📧 Email: ajeetspanwar985@gmail.com
 
-Check-In or Check-Out Guests
-
-Search Records or View All Bookings
-
-🧠 Learning Outcomes
-
-Understanding Python file handling and data management
-
-Building modular programs for scalability
-
-Learning how to simulate a database using text files
-
-Foundation for integrating GUI and DBMS
-
-Problem-solving and logical structuring for real-world use cases
-
-🌱 Future Scope
-
-This system will later be upgraded with:
-
-A Tkinter GUI interface for user-friendly booking management
-
-Database connectivity using SQLite or MySQL
-
-Automated reports for visitor tracking and analytics
-
-Email/SMS notifications for booking confirmations
-
-QR code receipts for contactless guest entry
-
-These improvements will make the project suitable for real hostel environments and digital campus initiatives.
-
-Project Structure
-Hostel-Guest-Room-Reservation-System/
-│
-├── test.py # Main program file
-├── bookings.txt # Text database
-├── README.md # Project description 
-
-Output Sample
-===== HOSTEL GUEST ROOM RESERVATION SYSTEM =====
-1. Add Reservation
-2. Update Reservation
-3. Cancel Reservation
-4. Search Reservation
-5. Check-In Guest
-6. Check-Out Guest
-7. View All Bookings
-8. Exit
-Enter your choice: 1
-
---- Add New Reservation ---
-Enter Student ID: 220022
-Enter Guest Name: Piyush
-Enter Relation (Father/Mother/Guardian): Father
-Enter number of stay days: 4
-
- Booking Successful!
-Booking ID (Student ID): 220022
-Guest: Piyush
-Room Assigned: 101
-----------------------------
-
-👨‍💻 Author
-
-Name: Ajeet Singh Panwar 
-Email: ajeetspanwar985@gmail.com
-
-🪪 License
-
-This project is open-source under the MIT License
-.
-
+🛠 Developed using Python 3 & Tkinter
