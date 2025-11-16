@@ -55,7 +55,6 @@ Password: 1234
 📁 Project Structure
 
 Hostel-Guest-Room-System/
-
 │── test2.py
 │── bookings.txt   (auto-generated)
 │── report.csv     (exported)
@@ -91,20 +90,25 @@ Report
 
 <img width="341" height="333" alt="image" src="https://github.com/user-attachments/assets/772cd5c1-8484-4185-979b-a62f2eea3d32" />
 
+
 🔧 How to Run
 Install Python 3.x
 Download or clone the repository
 
 Run:
+
 python test2.py
 
 Login using:
+
 Username: admin
 Password: 1234
 
 🧪 Testing & Validation
 All modules have been tested:
+
 Test	Status
+
 File handling	✔ Pass
 Reservation add/update/cancel	✔ Pass
 Room allocation	✔ Pass
@@ -113,7 +117,9 @@ Validation	✔ Pass
 CSV export	✔ Pass
 GUI operations	✔ Pass
 Login authentication	✔ Pass
+
 📦 Project Deliverables
+
 Fully working GUI-based reservation system
 File-handling backend
 Room allocation logic
@@ -123,6 +129,7 @@ Exportable reports
 Complete documentation
 
 📄 Key Outcomes
+
 Fully functional hostel guest management system
 Real-time status updates
 Clean and accessible user interface
@@ -130,6 +137,7 @@ Secure login-based access
 Complete module integration
 
 🔮 Future Scope
+
 Add SQL or SQLite database
 Multi-user roles (warden/admin/security)
 SMS or email notifications
