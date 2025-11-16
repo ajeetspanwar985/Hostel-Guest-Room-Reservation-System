@@ -127,6 +127,7 @@ Cloud-based deployment
 👨‍💻 Developer
 
 Ajeet Singh Panwar
+
 📧 Email: ajeetspanwar985@gmail.com
 
 🛠 Developed using Python 3 & Tkinter
