@@ -67,9 +67,11 @@ Login Screen
 <img width="583" height="441" alt="image" src="https://github.com/user-attachments/assets/aa716165-3a50-4a01-8476-42ae6d1d4dec" />
 
 Main Interface
+
 <img width="940" height="641" alt="image" src="https://github.com/user-attachments/assets/8ab7795e-017d-4ae7-9ffb-2a63193e0c05" />
 
 Data Table
+
 <img width="940" height="643" alt="image" src="https://github.com/user-attachments/assets/59cd61f4-96bd-4dc3-b69f-5e18ca0d7442" />
 
 Report
