@@ -133,17 +133,6 @@ Username: admin
 
 Password: 1234
 
-## Run (developer)
-1. Clone and create venv
-```powershell
-git clone https://github.com/ajeetspanwar985/Hostel-Guest-Room-Reservation-System.git
-cd Hostel-Guest-Room-Reservation-System
-python -m venv venv
-.\venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-python test2.py
-
-
 
 🧪 Testing & Validation
 
@@ -213,3 +202,14 @@ Ajeet Singh Panwar
 📧 Email: ajeetspanwar985@gmail.com
 
 🛠 Developed using Python 3 & Tkinter
+
+## Run (developer)
+1. Clone and create venv
+```powershell
+git clone https://github.com/ajeetspanwar985/Hostel-Guest-Room-Reservation-System.git
+cd Hostel-Guest-Room-Reservation-System
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+python test2.py
+
